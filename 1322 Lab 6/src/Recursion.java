@@ -14,6 +14,7 @@ public class Recursion {
 			case 'I': vowelcount++; break;
 			case 'O': vowelcount++; break;
 			case 'U': vowelcount++; break;
+			case 's': System.out.println("heyo"); break;
 			}
 		}
 		System.out.println("Checking the number of vowels in \"" + x +"\" which is: " + vowelcount);
